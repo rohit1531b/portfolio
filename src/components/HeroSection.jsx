@@ -21,8 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development and I specialize in DSA with C++.
+       I craft exceptional web experiences using modern technologies, with a strong focus on front-end development. In addition, I bring expertise in Data Structures and Algorithms (DSA) with C++, enabling me to design efficient, scalable, and high-performance solutions
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
