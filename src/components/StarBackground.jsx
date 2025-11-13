@@ -30,7 +30,7 @@ export const StarBackground = () => {
     for (let i = 0; i < numberOfStars; i++) {
       newStars.push({
         id: i,
-        size: Math.random() * 1 + 1,
+        size: Math.random() * 0.5 + 1,
         x: Math.random() * 100,
         y: Math.random() * 100,
         opacity: Math.random() * 0.5 + 0.5,
@@ -48,7 +48,7 @@ export const StarBackground = () => {
     for (let i = 0; i < numberOfMeteors; i++) {
       newMeteors.push({
         id: i,
-        size: Math.random() * 2 + 1,
+        size: Math.random() * 0.5 + 1,
         x: Math.random() * 100,
         y: Math.random() * 20,
         delay: Math.random() * 15,
